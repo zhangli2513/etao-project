@@ -115,7 +115,7 @@ window.corouselView = window.corouselView||{};
      * */
     Corouse.prototype.updataPage = function () {
         var lastPage = $("#"+this.backgroundView.attr("id")+" .imageView");
-        console.log(lastPage);
+//      console.log(lastPage);
         lastPage.remove();
         this.backgroundView.append(this.getSingleViews()[this.pageIndex]);
     };
@@ -123,12 +123,15 @@ window.corouselView = window.corouselView||{};
     /*
      * 开启定时器
      * */
-    Corouse.prototype.startTimer = function (delay) {
+    Corouse.prototype.startTimer = function (delay,callback) {
         if (this.timer){
             clearInterval(this.timer);
         }
         var self = this;
         this.timer = setInterval(function () {
+        	if(callback){
+        		callback();
+        	}
             self.nextPage();
         },delay);
         return this;

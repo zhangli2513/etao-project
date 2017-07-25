@@ -5,4 +5,7 @@ PRODUCT_HOST="http://h6.duchengjiu.top/shop/";
 DEBUG_HOST="192.168.200.33:8080/shop/";
 //登录
 LOGIN="api_user.php";
-
+//获取商品分类
+PRODUCT_TYPE="api_cat.php";
+//通过商品分类获得商品列表
+GOODS="api_goods.php";
