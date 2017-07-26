@@ -1,12 +1,89 @@
-.main-course-container,.goods-container{
+.main-course-container,.goods-container,.container-img{
 	width: 1200px;
 	margin: 0 auto;
 }
-.main-course-container div{
+.main-course-container div,.container-body{
 	float: left;
 }
 .main-course-container:after{
 	content: "";
+	display: block;
+	clear: both;
+}
+.container-img>.container-photo{
+	width: 100%;
+	height: 80px;
+}
+.goods-desc{
+	line-height: 2em;
+	text-indent: 30px;
+}
+.goods-price{
+	display: block;
+	width: 100%;
+	height: 30px;
+	background-color:#FB3434;
+	color: white;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+.goods-container>.container-headline,.goods-container>.container-header{
+	font-size: 30px;
+	color: #FB3434;
+	text-align: center;
+	padding: 20px;
+}
+hr{
+	border: 2px solid#FB3434;
+}
+.header-photo{
+	border: 1px solid #FB3434;
+	margin:50px 50px;
+}
+.container-head{
+	float: right;
+	width: 600px;
+	padding: 50px 50px 0 0;
+}
+.container-head p{
+	font-size: 20px;
+	text-indent: 40px;
+	padding-top: 40px;
+}
+.container-head h3{
+	color: #FB3434;
+	font-size: 30px;
+	padding-top: 40px;
+}
+.header-box{
+	padding-top: 40px;
+}
+.header-box button{
+	width: 35px;
+	height: 35px;
+}
+.header-box input{
+	width: 35px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+}
+.body-box{
+	padding-top: 50px;
+}
+.body-box button{
+	padding: 10px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	background-color: #FB3434;
+}
+.body-box>.body-box-join{
+	margin-left: 100px;
+}
+.goods-container>.container-myheader:after{
+	content: 'hr';
 	display: block;
 	clear: both;
 }
