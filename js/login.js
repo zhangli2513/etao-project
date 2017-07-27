@@ -15,6 +15,7 @@ var $=jQuery.noConflict();
 		loginContainer.append(posswordInput);
 		loginContainer.append(loginButton);
 		$(document.body).append(loginContainer);
+		
 		loginContainer.css({
 			width:"400px",
 			height:"300px",

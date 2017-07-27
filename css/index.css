@@ -28,7 +28,7 @@
 	line-height: 30px;
 	text-align: center;
 }
-.goods-container>.container-headline,.goods-container>.container-header{
+.goods-container>.container-headline,.goods-container>.container-header,.container-img>.container-headline{
 	font-size: 30px;
 	color: #FB3434;
 	text-align: center;
