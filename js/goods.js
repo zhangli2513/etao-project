@@ -1,4 +1,5 @@
 (function(){
+//主页商品列表
 	function GoodItem(obj) {
         this.des = obj;
         var space = 20;
@@ -57,7 +58,7 @@
 			superView.append(new GoodItem(data).click(action).item);
 		});
 	};
-	//商品详情
+	//商品详情跳转
     Good.prototype.goodDetail = function (url) {
         $(document).on('click','.good-box',function () {
             var detId=$(this).data("id");

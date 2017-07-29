@@ -5,8 +5,10 @@ $(".header-search-content").find("input:first").keyup(function(){
 });
 
 $(".header-search-content").find("input:last").click(function(){
-	window.open("seeks.html")
+	window.open("seeks.html");
 });
+
+//搜索商品列表请求
 $.get(PRODUCT_HOST+GOODS,{search_text:localStorage.getItem('myInputFirst')},function(result){
 	console.log(result)
 	var goodBox='';
@@ -14,14 +16,6 @@ $.get(PRODUCT_HOST+GOODS,{search_text:localStorage.getItem('myInputFirst')},func
         var space = 20;
         var colume = 5;
         var width = (1200-space*(colume-1))/colume;
-       
-        /*goodBox = $("<div class='good-box' data-id='"+obj.goods_id+"'></div>");
-        var name = $("<p class='good-name'>"+obj.goods_name+"</p>");
-        var other = $("<p><img width='"+width+"px' src='"+obj.goods_thumb
-                    +"' alt=''></p><h3 class='goods-price'>￥"+obj.price+"</h3><p class='goods-desc'>"+obj.goods_desc
-                    +"</p>");        
-        goodBox.append(name);
-        goodBox.append(other);*/
         
         goodBox +=`
         	<div class='good-box' data-id='${obj.goods_id}'>

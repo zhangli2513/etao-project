@@ -1,3 +1,5 @@
+//除主页以外 其他的页面 去除 轮播图效果
+
 function init(){
 	$(".header-top-login").click(function(){
 		new Login(function(user){

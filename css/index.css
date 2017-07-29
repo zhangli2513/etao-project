@@ -82,8 +82,8 @@ hr{
 .body-box>.body-box-join{
 	margin-left: 100px;
 }
-.goods-container>.container-myheader:after{
-	content: 'hr';
+.goods-container,.goods-container>.container-myheader:after{
+	content: '';
 	display: block;
 	clear: both;
 }

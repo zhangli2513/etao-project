@@ -2,11 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>go购-搜索商品</title>
+		<title>go购-结算页</title>
 		<link rel="stylesheet" type="text/css" href="css/mycss.css"/>
 		<link rel="stylesheet" type="text/css" href="css/unfiy.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopp-account.css"/>
 		<link rel="icon" type="text/css" href="img/header/yitao.png"/>
+		<style type="text/css">
+		#address select{width: 80px;height: 30px;border: 1px solid #c0c0c0;border-radius: 5px;outline: none;}
+		#address select option{width: 80px;max-width: 100px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+	    </style>
 	</head>
 	<body>
 		<header>
@@ -41,13 +46,37 @@
 			<div class="main-goods-list">
 				<div class="container-img">
 					<img class="container-photo" src="img/header/standard.png"/>
-					<p class="container-headline">搜索商品</p>
+					<p class="container-headline">结算页</p>
+				</div>
+				<div class="container-img">
+					<p>填写并核对信息</p><br/>
+					<hr/>
+					<div class="shopp-site">送货地址</div>
+					<div class="shopp-site-join">添加收货地址</div>
+					<div class="shopp-site-add"></div>
+					<br/>
+					<hr/>
+					<div class="shopp-site">支付方式</div>
+					<div class="zf-box">
+						<div class="hdfk">货到付款</div>
+						<div class="zxzf">在线支付</div>
+					</div>
+					<br/>
+					<hr/>
+					<div class="shopp-site">订单详情</div>
+					<div class="shoppingxq">
+						<div class="shoppSP">商品</div>
+						<div class="shoppSP shoppSPNum">数量</div>
+						<div class="shoppSP shoppSPPrice">单价(元)</div>
+						<div class="shoppSP shoppSPBigPrice">小计(元)</div>
+					</div>
 				</div>
 				<div class="goods-container"></div>
 			</div>
 		</section>
 		<footer></footer>
 	</body>
+	
 	<script src="js/default.js"></script>
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/Course.js"></script>
@@ -56,4 +85,6 @@
 	<script src="js/goods.js"></script>
     <script src="js/details.js"></script>
     <script src="js/seeks.js"></script>
+    <script src="js/shopp-account.js"></script>
+    <script src="js/addres.js"></script>
 </html>

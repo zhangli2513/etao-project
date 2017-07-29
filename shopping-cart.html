@@ -2,10 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>go购-搜索商品</title>
+		<title>go购-购物车</title>
 		<link rel="stylesheet" type="text/css" href="css/mycss.css"/>
 		<link rel="stylesheet" type="text/css" href="css/unfiy.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopping-cart.css"/>
 		<link rel="icon" type="text/css" href="img/header/yitao.png"/>
 	</head>
 	<body>
@@ -41,9 +42,24 @@
 			<div class="main-goods-list">
 				<div class="container-img">
 					<img class="container-photo" src="img/header/standard.png"/>
-					<p class="container-headline">搜索商品</p>
+					<p class="container-headline">购物车</p>
+					<div class="shopping-head">
+						<div class="checked">
+							<input class='AllInputcheck' type="checkbox" checked="checked"/>全选
+						</div>
+						<div class="shop-jion">商品(点击可跳转详情)</div>
+						<div class="shop-num">数量</div>
+						<div class="shop-price">价格</div>
+						<div class="shop-min shop-price">小计</div>
+						<div class="shop-del shop-price">删除购买</div>
+					</div>
+					<div class="goods-container"></div>
+					<div class="goods-push">
+						<button class="goods-del">批量删除</button>
+						<p>总价：￥<span class="BigPriceNum"></span>(点击+-测试)</p>
+						<button class="goods-shop-push">提交订单</button>
+					</div>
 				</div>
-				<div class="goods-container"></div>
 			</div>
 		</section>
 		<footer></footer>
@@ -56,4 +72,5 @@
 	<script src="js/goods.js"></script>
     <script src="js/details.js"></script>
     <script src="js/seeks.js"></script>
+    <script src="js/shopping-cart.js"></script>
 </html>

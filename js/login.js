@@ -53,11 +53,14 @@ var $=jQuery.noConflict();
 					console.log(data);
 					//登录成功
 					if(data.code==0){
+						localStorage.setItem('token',data.data.token);
+						localStorage.setItem('user_id',data.data.user_id);
 						loginContainer.slideUp(500,function(){
 							loginContainer.remove();
 							//执行外面传入方法
 							success(data.data);
 						});
+						localStorage.setItem("username",data.data.username);
 					}else{
 						alert(data.Message);
 					};

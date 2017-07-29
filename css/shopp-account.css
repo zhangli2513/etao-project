@@ -1,0 +1,141 @@
+
+.shopp-site{
+	width: 100%;
+	height: 30px;
+	background: #B3B3B3;
+	margin-top: 10px;
+	line-height: 30px;
+	color: white;
+}
+.shopp-site-join{
+	width: 200px;
+	height: 30px;
+	float: right;
+	background: #FB3434;
+	line-height: 30px;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+}
+.headMY{
+	width:100%;
+	height:30px;
+	background:#757171;
+}
+.headMyP1{
+	float:left;
+	padding:5px;
+	color:white;
+}
+.headMyP2{
+	float:right;
+	padding:5px;
+	color:white;
+}
+.mySite{
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.mySite-add input{
+    width: 100px;
+}
+.mySite-me input{
+	width: 150px;
+}
+.mySite p{
+	padding-top: 20px;
+}
+.mySite button{
+	margin-top: 30px;
+	border: none;
+	background: #FB3434;
+	height: 30px;
+	line-height: 30px;
+	width: 130px;
+	text-align: center;
+	color: white;
+}
+.shopp-site-add{
+	width: 1200px;
+	padding-top: 50px;
+}
+.shoppSiteadd{
+	height: 30px;
+    border: 1px solid #FB3434;
+	margin-top: 5px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.shoppSiteadd button{
+	float: right;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+.hdfk,.zxzf{
+	width: 100px;
+	height: 40px;
+	background: #FB3434;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.zf-box:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.shoppingxq,.shopping-header{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid#FB3434;
+	border-top: 2px solid#FB3434;
+	margin-top: 20px;
+}
+.shoppSP{
+	width: 400px;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+}
+.shoppSPNum{
+	width: 200px;
+}
+.shoppSPPrice,.shoppSPBigPrice{
+	width: 300px;
+}
+.shopping-header{
+	border-bottom: 2px solid#FB3434;
+	border-top: 0;
+	margin-top: 0px;
+	float: left;
+}
+.shopping-header img{
+	width: 100px;
+	height: 98px;
+	border: 1px solid#FB3434;
+	float: left;
+}
+.myshop-join{
+   float: left;
+   width: 400px;
+}
+.myshop-join p{
+	overflow: hidden;
+	padding: 10px 0 10px 0px;
+}
+.header-box{
+	width: 200px;
+	height: 98px;
+	text-align: center;
+	float: left;
+}
+.myshop-price{
+	width: 300px;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+}
